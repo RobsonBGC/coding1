@@ -23,6 +23,88 @@ git add
 git commit
 ```
 entre outros.
+# Continuação da aula passada e adiante
+Nesta aula nos foi mostrados um pouco maisd dos tipos primitivos
+**Um primitivo (valor primitivo, tipo de dados primitivo) é um dado que não é representado através de um Objeto e, por consequência, não possui métodos.**
+String:
+```Js
+const frase = 'Olá, mundo!'
+
+console.log(frase)
+```
+Concatenação de strings:
+**Concatenar é uma palavra chique da programação que significa "colocar junto". Para colocar strings juntas em JavaScript, usamos o operador (+), o mesmo usamos para adicionar números, mas neste contexto é algo diferente. Vamos tentar este exemplo no console.**
+```Js
+var one = "Hello, ";
+var two = "how are you?";
+var joined = one + two;
+joined;
+```
+**Números, operadores e calculos matemáticos**
+Number -> valores numéricos (podem ser inteiros ou decimais 5 ou 5.0)
+```Js
+var num1 = 10;
+var num2 = 50;
+9 * num1;
+num2 / num1;
+```
+**BigInt (grandes números)**
+O tipo Number é limitado por isso o tipo de dado BigInt foi criado. Com ele é possível representar inteiros de precisão não exata. Para fazer uso dele você pode adicionar um n ao final do número inteiro ou chamar a função BigInt() como mostrado abaixo:
+```Js
+90071992547409910n * 100n
+9007199254740991000n
+```
+com o Number:
+```Js
+90071992547409910 * 100
+9007199254740990000
+```
+**Null (nulo)**
+Pode ser utilizado para representar um valor vazio
+
+**Undefined valor que não foi definido**
+
+**Boolean**
+false e true
+
+Muitas vezes, na programação, você precisará de um tipo de dado que só pode ter um de dois valores. Exemplo:
+
+SIM / NÃO
+LIGADO / DESLIGADO
+VERDADEIRO / FALSO
+Para isso, JavaScript tem um tipo de dado Boolean . Ele só pode receber os valores true ou false.
+```Js
+console.log(10 > 9)
+console.log(2 !== "dois")
+```
+**Operadores**
+Operadores Matemáticos
++  mais
+-  menos
+*  multiplicação
+/  divisão
+%  modulo (ou resto)
+** potencia
+Operadores de Atribuição
+a = 2 -> atribui valor de 2 para a
+
+**Operadores Lógicos**
+&&  significa E
+||  significa OU
+**Operadores de Comparação**
+==   igual
+===  igual
+>    maior que
+<    menor que
+>=   maior igual a
+<=   menor igual a
+!==  diferente
+!=   diferente
+Triple equals vs Double equals
+2 == 2 // true
+2 === 2 // true
+2 === "2" // false
+2 == "2" // true
 
 # Aula 1 sobre if/else com atividade passada em sala no dia 23/10/2024
 Nesta aula aprendemos mais sobre if e else com exemplos e uma atividade prática passada em sala. 
