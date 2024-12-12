@@ -2,10 +2,27 @@
 Na aula de hoje aprendemos os conceitos iniciais sobre o github de criação de conta até o primeiro repositório
 
 # Resumo da aula anterior parte 2
-na aula de hoje demos segmento as configurações do github
-
+na aula de hoje demos segmento as configurações do github e aprendemos sobre as Variáveis e atribuições de variáveis, suas funções e seus tipos como por exemplo 
+Var-É mais antiga forma de definir variáveis no javascript, ela pode ser reatribuída e redeclarada. Diferentemente da const e da let ela não tem escopo de bloco.
+Let-A let junto com a const vieram no es6 (atualização de 2015). Ela também pode ter o seu valor reatribuido mas não pode ser redeclarado.
+Const-A const (constante) não pode ter seu valor reatribuído nem redeclarado. Diferentemente da let e da var. E assim com a let ela também tem escopo de bloco.
+**Exemplo prático:**
+```Js
+const popular = 'oi'
+if (2 > 1) {
+  //escopo local
+  console.log(popular)
+}
+```
 # Resumo da aula do dia 18/09/2024
-hoje e professora comentou sobre as atividades e recriou a atividade do dia 4/9 para os alunos que chegaram hoje e continuamos falando sobre o github e sua funções para subir uma pasta para o repositório criando um arquivo nomeado de "gitignore" e dentro dela escrevemos "/node_modules" entre outros.
+hoje e professora comentou sobre as atividades e recriou a atividade do dia 4/9 para os alunos que chegaram hoje e continuamos falando sobre o github e sua funções para subir uma pasta para o repositório criando um arquivo nomeado de "gitignore" e dentro dela escrevemos:
+```
+/node_modules
+git status
+git add
+git commit
+```
+entre outros.
 
 # Aula 1 sobre if/else com atividade passada em sala no dia 23/10/2024
 Nesta aula aprendemos mais sobre if e else com exemplos e uma atividade prática passada em sala. 
