@@ -106,7 +106,7 @@ Triple equals vs Double equals
 2 === "2" // false
 2 == "2" // true
 
-# Aula 1 sobre if/else com atividade passada em sala no dia 23/10/2024
+# Aula 1 sobre if/else com atividade passada em sala no dia 13/10/2024
 Nesta aula aprendemos mais sobre if e else com exemplos e uma atividade prática passada em sala. 
 ```Js
 let decisao = prompt("Escolha: '1', para abrir a porta,'2', para fechar a porta e '3', para deixar entreaberta");
@@ -143,6 +143,94 @@ else if(servico == 4){
 else{
   console.log("Esta opção é inválida")
 }
+```
+# Resumo da aula do dia 23/10/2024
+A aula desta data foi direcionada para o aprendizado de Array no Javascript com a parte teórica e prática com exemplos e atividades.
+Declaração de arrays
+```Js
+const lista = new Array('pera', 'uva', 'maçã')
+
+const numeros = [9, 2, 5]
+Acessando elementos pela posição do array:
+
+const primeiroItem = lista[0]
+
+console.log(primeiroItem) // pera
+```
+Tamanho de array:
+```Js
+const tamanho = numeros.length
+
+console.log(tamanho) // 3
+```
+Atribuição via desestruturação
+```Js
+const [primeiro, segundo, terceiro] = lista
+
+console.log(primeiro) // pera
+console.log(segundo) // uva
+console.log(terceiro) // maçã
+```
+**Atividade**
+```Js
+let livros = ["javascript","ECMAScript","MongoDB"];
+console.log(livros[0]);
+let consulta = livros.indexOf("javascript")
+console.log(consulta)
+console.log(livros.push("novoLivro"));
+console.log(livros.pop());
+```
+
+
+```Js
+const livros = ["javascript","ECMAScript","MongoDB"];
+
+let inserir = prompt("Digite o livro para inserir:")
+console.log(livros.push(inserir))
+console.log(livros)*/
+
+const frutas = ["Banana","Carambola","Goiaba","Cebola"];
+console.log(frutas.pop());
+let inserir = prompt("Digite a fruta para inserir:")
+console.log(frutas.push(inserir))
+console.log(frutas)
+console.log(frutas.length)
+```
+# Continuação da última aula
+Mais sobre Array
+```Js
+const Animais = ["Rato","Gato","Cachorro","Guaxinin"];
+
+const tamanhoA = Animais.length;
+
+const CorredorA1 = Animais.slice(0, tamanhoA /2);
+
+const CorredorA2 = Animais.slice(tamanhoA/2)
+
+console.log("Os animais do corredor A1 são: ", CorredorA1);
+console.log("Os animais do corredor A2 são: ", CorredorA2)
+```
+
+```Js
+const Coisas = ["Roda","Faca","Pastel","Camisa"];
+
+const Partes = ["Pé","Mão","Boca","Tronco"];
+
+const juntarTroço = Coisas.concat(Partes);
+
+console.log(juntarTroço.sort());
+```
+```Js
+const livros = ["Javascript","Scrum","Angular","Clean code"]
+
+const locallivros = [3, 4, 1];
+
+const listalocallivros = [livros, locallivros];
+
+console.log(`O livro ${listalocallivros[0][0]}, está na prateleira: ${listalocallivros[1][0]}`)
+
+
+const media = [3, 4, 7, 9, "10"];
 ```
 # Resumo da aula do dia 13/11/2024
 Nesta aula aprendemos o conceito e a usabilida da função "function" com exemplos e atividades em sala de aula.
