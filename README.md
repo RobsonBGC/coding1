@@ -6,7 +6,7 @@ na aula de hoje demos segmento as configurações do github
 hoje e professora comentou sobre as atividades e recriou a atividade do dia 4/9 para os alunos que chegaram hoje e continuamos falando sobre o github e sua funções para subir uma pasta para o repositório criando um arquivo nomeado de "gitignore" e dentro dela escrevemos "/node_modules"
 # Aula do dia 04/12/2024
 aula do dia 04/12/2024 nesta aula aprendemos o que são paradigmas e o que são e para que servem objetos dentro de javascript e executamos algumas linhas de código para entender melhor como essas:
-
+```Js
 const estudante = {
 
   nome: "Tereza",
@@ -18,23 +18,23 @@ const estudante = {
 }
 
 console.log(estudante.nome);
-
+```
 //notação por .
-
+```Js
 console.log(estudante["matricula"]);
-
+```
 //notação por colchetes
-
+```Js
 console.log(`Meu nome é ${estudante.nome} e tenho ${estudante.idade} anos.` );
-
+```
 //usando template string
-
+```Js
 console.log(estudante.matricula.substring(0, 3));
-
+```
 //método substring
 
 ​
-
+```Js
 for (const key in estudante) {
 
   console.log(estudante[key]);
@@ -42,7 +42,7 @@ for (const key in estudante) {
 }
 
 //loop for..in
-
+```
 ​
 
 //Após isso foi passada uma atividade com a adição e alteração de objetos:
@@ -50,7 +50,7 @@ for (const key in estudante) {
 ​
 
 //Adicionar
-
+```Js
 estudante.matricula = "abcd123";
 
 estudante.fones = ["35487799","98774586"];
@@ -58,21 +58,21 @@ estudante.fones = ["35487799","98774586"];
 ​
 
 console.log(estudante);
-
+```
 ​
 
 //Alterar
-
+```Js
 estudante.curso = "front-end";
 
 estudante.fones = ["0000000","98774586"];
-
+```
 ​
 
 //Após isso tivemos uma atividade de função com objeto 
 
 ​
-
+```Js
 alert('Boas Vindas!')
 
 const escolha = prompt("Digite 1, para adicionar. Digite 2, para remover.")
@@ -106,13 +106,13 @@ estudante[chave] = valor
   return `Você inseriu os dados com sucesso! Os dados atualizados são: ${estudante.chave}`
 
 }
-
+```
 ​
 
 //Aqui aprendemos a função de Deletar:
 
 //Deletar
-
+```Js
 delete estudante.matricula; //notação de ponto
 
 console.log(estudante);
@@ -122,3 +122,4 @@ console.log(estudante);
 delete estudante["idade"];//notação de array
 
 console.log(estudante);
+```
