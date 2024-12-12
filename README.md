@@ -5,9 +5,10 @@ Na aula de hoje aprendemos os conceitos iniciais sobre o github de criação de 
 na aula de hoje demos segmento as configurações do github
 
 # Resumo da aula do dia 18/09/2024
-hoje e professora comentou sobre as atividades e recriou a atividade do dia 4/9 para os alunos que chegaram hoje e continuamos falando sobre o github e sua funções para subir uma pasta para o repositório criando um arquivo nomeado de "gitignore" e dentro dela escrevemos "/node_modules"
+hoje e professora comentou sobre as atividades e recriou a atividade do dia 4/9 para os alunos que chegaram hoje e continuamos falando sobre o github e sua funções para subir uma pasta para o repositório criando um arquivo nomeado de "gitignore" e dentro dela escrevemos "/node_modules" entre outros.
 
-# Aula 1 sobre if/else com atividade passada em sala 23/10/2024
+# Aula 1 sobre if/else com atividade passada em sala no dia 23/10/2024
+Nesta aula aprendemos mais sobre if e else com exemplos e uma atividade prática passada em sala. 
 ```Js
 let decisao = prompt("Escolha: '1', para abrir a porta,'2', para fechar a porta e '3', para deixar entreaberta");
 
@@ -43,6 +44,54 @@ else if(servico == 4){
 else{
   console.log("Esta opção é inválida")
 }
+```
+# Resumo da aula do dia 13/11/2024
+Nesta aula aprendemos o conceito e a usabilida da função "function" com exemplos e atividades em sala de aula.
+```Js
+function mediaMat(prova, redacao) {
+  return (prova+redacao)/2
+}
+
+console.log(mediaMat(8, 8));
+```
+```Js
+function dobro(num) {
+  return num * 2
+}
+
+console.log(dobro(12));
+```
+
+```Js
+function calcularM(nota1, nota2, nota3) {
+  const soma = (nota1 + nota2 + nota3)
+  const media = soma / 3
+  return media
+}
+
+console.log(calcularM(5, 6, 8));
+```
+```Js
+function ordenar(a, b) {
+  if (a <= b) {
+    return [a, b]
+  } else {
+    return [b, a]
+  }
+}
+
+console.log(ordenar(3,1));
+```
+
+```Js
+const notas = [5, 9, 10, 6, 7]
+
+function resultado (notas) {
+  let media = (notas[0] + notas[1] + notas[2] + notas[3] + notas[4])/notas.length
+  return media
+}
+
+console.log (`O resultado da media é, ${resultado (notas)}`)
 ```
 
 # Aula do dia 04/12/2024
